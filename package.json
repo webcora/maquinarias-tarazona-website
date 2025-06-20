@@ -1,0 +1,78 @@
+{
+  "name": "maquinarias-tarazona-website",
+  "version": "1.0.0",
+  "description": "Sitio web corporativo para Maquinarias Tarazona - Soluciones Avanzadas en Reparación de Maquinaria Pesada en Lima, Perú",
+  "author": {
+    "name": "Maquinarias Tarazona",
+    "email": "info@maquinariastarazona.com",
+    "url": "https://maquinariastarazona.com"
+  },
+  "keywords": [
+    "maquinaria pesada",
+    "reparación industrial",
+    "Lima Perú",
+    "excavadoras",
+    "bulldozers",
+    "servicio técnico 24/7",
+    "diagnóstico computarizado",
+    "repuestos originales"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maquinarias-tarazona/website.git"
+  },
+  "bugs": {
+    "url": "https://github.com/maquinarias-tarazona/website/issues"
+  },
+  "homepage": "https://maquinariastarazona.com",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=8.0.0"
+  },
+  "scripts": {
+    "dev": "pnpm install && vite",
+    "build": "pnpm install && rm -rf node_modules/.vite-temp && tsc -b && vite build",
+    "lint": "pnpm install && eslint .",
+    "preview": "pnpm install && vite preview"
+  },
+  "dependencies": {
+    "@radix-ui/react-dialog": "^1.1.4",
+    "@radix-ui/react-dropdown-menu": "^2.1.4",
+    "@radix-ui/react-label": "^2.1.1",
+    "@radix-ui/react-popover": "^1.1.4",
+    "@radix-ui/react-separator": "^1.1.1",
+    "@radix-ui/react-slot": "^1.1.1",
+    "clsx": "^2.1.1",
+    "framer-motion": "^12.16.0",
+    "gsap": "^3.13.0",
+    "lucide-react": "^0.364.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-helmet-async": "^2.0.5",
+    "react-router-dom": "^6",
+    "tailwind-merge": "^2.6.0",
+    "tailwindcss-animate": "^1.0.7"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.15.0",
+    "@types/node": "^22.10.7",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@types/react-router-dom": "^5",
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "10.4.20",
+    "eslint": "^9.15.0",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "eslint-plugin-react-refresh": "^0.4.14",
+    "globals": "^15.12.0",
+    "postcss": "8.4.49",
+    "tailwindcss": "v3.4.16",
+    "terser": "^5.41.0",
+    "typescript": "~5.6.2",
+    "typescript-eslint": "^8.15.0",
+    "vite": "^6.3.5"
+  }
+}
