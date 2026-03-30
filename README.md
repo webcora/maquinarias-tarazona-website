@@ -43,7 +43,7 @@
 
 ## 🌐 DEMO EN VIVO
 
-**URL del sitio:** https://5l7bfjn1b8.space.minimax.io](https://www.maquinariastarazona.com/
+**URL del sitio:** https://www.maquinariastarazona.com/
 
 ### 📱 **Características implementadas:**
 - **Página Principal:** Hero section con call-to-actions
